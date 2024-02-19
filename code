@@ -21,10 +21,16 @@ void setup()
 
 void loop()
 {
-  if (digitalRead(12) == HIGH) // Check if the push button is pressed
+  switch (digitalRead(12)) // Check the state of the push button
   {
-    push_state = !push_state; // Toggle the state of push_state
+    case HIGH: // Push button is pressed
+      push_state = !push_state; // Toggle the state of push_state
+      break;
+    case LOW: // Push button is not pressed
+      // Do nothing
+      break;
   }
+  
   Serial.println(push_state); // Print the state of push_state to serial monitor for debugging
 
   if (push_state == HIGH) // Check if the push button is in the ON state
