@@ -18,3 +18,15 @@ The Smart Lighting project aims to create an intelligent lighting system using A
 <br>
 
 ![Uploading image.png…](image_2024-04-12_152215925.png)
+
+
+### Components Used:
+- Arduino Uno: Two microcontrollers used for controlling the system.
+- LCD Display: Displays system status and information.
+- LDR (Light Dependent Resistor): Senses ambient light levels.
+- Bulb: Represents the lighting controlled by the system.Power Supply: Provides power to the circuit.
+- Relay: Used for switching the bulb on and off.
+- Button: Allows manual control of the system.
+- Bluetooth Module: Enables wireless communication and control.
+- Remote Control: Provides remote operation capability.
+- IoT System Simulation: Demonstrates integration with other IoT systems for power monitoring.
